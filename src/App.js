@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Message from './components/Message';
 import Footer from './components/Footer';
-import Products from './components/Products';
 import Cart from './components/Cart';
 import ProductsContainer from './containers/ProductsContainer';
 import _ from 'lodash';

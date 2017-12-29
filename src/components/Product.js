@@ -45,7 +45,7 @@ class Product extends Component {
         result.push(<i className='fa fa-star' key={i}></i>);
       }
       for (let i = 1; i <= (10 - rating); i++) {
-        result.push(<i className='fa fa-star-o' key={i}></i>);
+        result.push(<i className='fa fa-star-o' key={i*100}></i>);
       }
     }
     return result;
