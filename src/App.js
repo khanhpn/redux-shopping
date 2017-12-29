@@ -4,6 +4,7 @@ import Message from './components/Message';
 import Footer from './components/Footer';
 import Products from './components/Products';
 import Cart from './components/Cart';
+import ProductsContainer from './containers/ProductsContainer';
 import _ from 'lodash';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
         <Header />
         <main id="mainContainer">
           <div className="container">
-            <Products />
+            <ProductsContainer />
             <Message />
             <Cart />
           </div>
