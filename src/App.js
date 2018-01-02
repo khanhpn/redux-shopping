@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Message from './components/Message';
 import Footer from './components/Footer';
-import Cart from './components/Cart';
 import ProductsContainer from './containers/ProductsContainer';
 import CartContainer from './containers/CartContainer';
+import MessageContainer from './containers/MessageContainer';
 import _ from 'lodash';
 
 class App extends Component {
@@ -15,7 +14,7 @@ class App extends Component {
         <main id="mainContainer">
           <div className="container">
             <ProductsContainer />
-            <Message />
+            <MessageContainer />
             <CartContainer />
           </div>
         </main>
